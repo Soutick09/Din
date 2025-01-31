@@ -86,7 +86,7 @@ async def start_command(client: Client, message: Message):
                 await msg.copy(chat_id=message.from_user.id, caption=caption, parse_mode=ParseMode.HTML, reply_markup=reply_markup, protect_content=PROTECT_CONTENT)
             except:
                 pass
-        await message.reply_text(f"<b>‼️ Forward the Files to Saved Messages or somewhere else before Downloading it.\n\nIt will get Delete after 1 Hour ‼️</b>")
+        await message.reply_text(f"<b>‼️ Forward the Files to Saved Messages or somewhere else before Downloading it.\n\nIt will get Delete after 5 Minutes ‼️</b>")
         await message.reply_text(f"<b>Join @AIO_Backup for More ⚡</b>")
         return
     else:
