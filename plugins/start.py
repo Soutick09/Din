@@ -13,7 +13,7 @@ from config import ADMINS, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL
 from helper_func import subscribed, encode, decode, get_messages
 from database.database import add_user, del_user, full_userbase, present_user
 async def delete_after_delay(message: Message, delay):
-    await asyncio.sleep(3600)
+    await asyncio.sleep(300)
     await message.delete()
 
 
@@ -87,7 +87,7 @@ async def start_command(client: Client, message: Message):
             except:
                 pass
         await message.reply_text(f"<b>‼️ Forward the Files to Saved Messages or somewhere else before Downloading it.\n\nIt will get Delete after 1 Hour ‼️</b>")
-        await message.reply_text(f"<b>Join @Animes_Empire for More ⚡</b>")
+        await message.reply_text(f"<b>Join @AIO_Backup for More ⚡</b>")
         return
     else:
         reply_markup = InlineKeyboardMarkup(
