@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello!! {mention} 👋! I'm Alya.\n\nI'm here to provide you adult contents for Free 😄\n\n© @AIO_Backup</b>")
 try:
-    ADMINS=[]
+    ADMINS=[5827289728]
     for x in (os.environ.get("ADMINS", "7272399911").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -64,8 +64,8 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'Fals
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "Good Luck for Your Future!"
 
-ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(7272399911)
+ADMINS.append(5827289728)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
