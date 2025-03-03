@@ -41,7 +41,7 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002487535307"
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello!! {mention} 👋! I'm here to provide you adult contents for Free 😄\n\n© @AIO_Backup</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello!! {mention} 👋! I'm here to provide you adult contents for Free 😄\n\n© @godoffstuf</b>")
 try:
     ADMINS=[5827289728]
     for x in (os.environ.get("ADMINS", "5827289728").split()):
